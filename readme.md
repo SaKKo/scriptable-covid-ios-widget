@@ -5,7 +5,7 @@ Covid Widget สำหรับ IOS
 
 # วิธีใช้งาน
 
-โหลดแอพได้ที่ https://scriptable.app/
+โหลดแอพ https://scriptable.app/
 
 # Copy script จาก index.js ทั้งหมด
 
