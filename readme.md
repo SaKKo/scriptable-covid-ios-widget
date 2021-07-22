@@ -3,15 +3,27 @@ Covid Widget สำหรับ IOS
 ตัวอย่าง ทั้งสามขนาด
 ![ตัวอย่าง Covid Widget สำหรับ IOS](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/Preview.jpeg?raw=true)
 
-# วิธีใช้งาน
+## Scriptable
 
-โหลดแอพ https://scriptable.app/
+โหลดแอพ --> [scriptable.app](https://scriptable.app/)
 
-# Copy script จาก index.js ทั้งหมด
+## Script
+
+https://github.com/SaKKo/scriptable-covid-ios-widget
+
+หรือ
 
 https://raw.githubusercontent.com/SaKKo/scriptable-covid-ios-widget/main/index.js
 
-และทำตาม step ดังนี้
+## วีดีโอเพิ่ม Script
+
+วิธีการเพิ่ม สอนเป็นวีดีโอดูผ่าน youtube สำหรับคนอ่านข้างล่างไม่เข้าใจ
+
+[![iOS Widget Covid 19 youtube](/posts/covid-ios-widget/2.png)](https://www.youtube.com/watch?v=dUitlz1Cro0)
+
+หรือถ้าไม่ชอบดูวีดีโอ สามารถทำตามนี้ได้ครับ
+
+## ไม่ชอบดูวีดีโอ ดูรูปแทน
 
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/1.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/2.PNG?raw=true)
@@ -23,6 +35,9 @@ https://raw.githubusercontent.com/SaKKo/scriptable-covid-ios-widget/main/index.j
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/8.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/9.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/10.PNG?raw=true)
+
+## วิธีเพิ่ม Widget
+
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/11.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/12.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/13.PNG?raw=true)
@@ -33,3 +48,8 @@ https://raw.githubusercontent.com/SaKKo/scriptable-covid-ios-widget/main/index.j
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/18.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/19.PNG?raw=true)
 ![](https://github.com/sakko/scriptable-covid-ios-widget/blob/main/assets/20.PNG?raw=true)
+
+## เสร็จแล้วครับ
+
+หวังว่าจะมีประโยชน์นะครับ
+ใส่หน้ากากกันด้วยนะครับ
