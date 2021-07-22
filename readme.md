@@ -53,3 +53,7 @@ https://raw.githubusercontent.com/SaKKo/scriptable-covid-ios-widget/main/index.j
 
 หวังว่าจะมีประโยชน์นะครับ
 ใส่หน้ากากกันด้วยนะครับ
+
+## Credit Icon
+
+Icons made by https://www.flaticon.com/authors/surang from https://www.flaticon.com/

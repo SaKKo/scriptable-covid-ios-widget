@@ -282,3 +282,5 @@ async function loadImage(imgUrl) {
   const req = new Request(imgUrl);
   return await req.loadImage();
 }
+
+// Icons made by https://www.flaticon.com/authors/surang from https://www.flaticon.com/
