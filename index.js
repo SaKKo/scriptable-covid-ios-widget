@@ -28,6 +28,11 @@ const sizes = {
 const currentSize = sizes[config.widgetFamily] || sizes.large;
 
 const covidData = await fetchCovidDataFromEasySunday();
+formatNumbersWithNumberSigns(covidData, [
+  'newConfirmed',
+  'newDeaths',
+  'newHospitalized',
+]);
 async function fetchCovidDataFromThStat() {
   let url = 'https://covid19.th-stat.com/json/covid19v2/getTodayCases.json';
   const req = new Request(url);
@@ -61,6 +66,15 @@ async function fetchCovidDataFromEasySunday() {
   return ret;
 }
 
+function formatNumbersWithNumberSigns(obj, keys) {
+  keys.forEach((k) => {
+    const v = obj[k];
+    if (Number(v) > 0) {
+      obj[k] = `+${v}`;
+    }
+  });
+}
+
 const widget = new ListWidget();
 widget.backgroundColor = Color.black();
 await createHeader();
@@ -75,7 +89,7 @@ await addItem(row1, {
     color: '#FFFFFF',
   },
   value: {
-    value: '+' + covidData.newConfirmed,
+    value: covidData.newConfirmed,
     style: 'bold-mono',
     fontSize: currentSize.large,
     color: '#FF0000',
@@ -92,7 +106,7 @@ await addItem(row2, {
     color: '#FFFFFF',
   },
   value: {
-    value: '+' + covidData.newDeaths,
+    value: covidData.newDeaths,
     style: 'bold',
     fontSize: currentSize.medium,
     color: '#FF76FF',
@@ -107,7 +121,7 @@ await addItem(row2, {
     color: '#FFFFFF',
   },
   value: {
-    value: '+' + covidData.newHospitalized,
+    value: covidData.newHospitalized,
     style: 'bold',
     fontSize: currentSize.medium,
     color: '#FEFB67',
