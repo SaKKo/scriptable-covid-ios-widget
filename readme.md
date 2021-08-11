@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/SaKKo/scriptable-covid-ios-widget/main/index.j
 
 วิธีการเพิ่ม สอนเป็นวีดีโอดูผ่าน youtube สำหรับคนอ่านข้างล่างไม่เข้าใจ
 
-[![iOS Widget Covid 19 youtube](/posts/covid-ios-widget/2.png)](https://www.youtube.com/watch?v=dUitlz1Cro0)
+[![iOS Widget Covid 19 youtube](https://soontobeprogrammer.com/posts/covid-ios-widget/2.png)](https://www.youtube.com/watch?v=dUitlz1Cro0)
 
 หรือถ้าไม่ชอบดูวีดีโอ สามารถทำตามนี้ได้ครับ
 
